@@ -1,6 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
+      <br />{{#link-to 'artists.new' class='btn btn-primary btn-small'}}Create Artist{{/link-to}}<br /><br /><br />
       {{#each model.artists as |artist|}}
         <div>
           {{#link-to 'artists.artist' artist.id}}
